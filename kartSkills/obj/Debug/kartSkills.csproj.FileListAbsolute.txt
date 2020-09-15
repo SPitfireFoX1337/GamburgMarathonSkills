@@ -1,0 +1,12 @@
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\bin\Debug\kartSkills.exe.config
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\bin\Debug\kartSkills.exe
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\bin\Debug\kartSkills.pdb
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.csprojAssemblyReference.cache
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.Template.resources
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.Properties.Resources.resources
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.csproj.GenerateResource.cache
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.csproj.CoreCompileInputs.cache
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.exe
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.pdb
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.main.resources
+C:\Users\Бабанин\Desktop\kartSkills\kartSkills\obj\Debug\kartSkills.signin.resources

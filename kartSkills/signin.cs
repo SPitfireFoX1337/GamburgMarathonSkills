@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace kartSkills
 {
-    public partial class Form1 : Form
+    public partial class signin : Template
     {
-        public Form1()
+        public signin()
         {
             InitializeComponent();
+        }
+
+        private void signin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new main().Show();
+            Hide();
         }
     }
 }

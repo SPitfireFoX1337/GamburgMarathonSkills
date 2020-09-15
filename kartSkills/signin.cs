@@ -27,5 +27,20 @@ namespace kartSkills
             new main().Show();
             Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if ((tb_email.Text == "admin") && (tb_password.Text == "1448"))
+                    {
+                MessageBox.Show("Вы авторизировались");
+            }
+            else
+            {
+                MessageBox.Show("Пользователь не найден");
+            }
+                    
+
+            
+        }
     }
 }

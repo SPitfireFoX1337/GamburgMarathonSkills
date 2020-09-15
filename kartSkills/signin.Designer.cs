@@ -31,8 +31,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_email = new System.Windows.Forms.TextBox();
+            this.tb_password = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -67,19 +67,19 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Password:";
             // 
-            // textBox1
+            // tb_email
             // 
-            this.textBox1.Location = new System.Drawing.Point(282, 255);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(152, 20);
-            this.textBox1.TabIndex = 5;
+            this.tb_email.Location = new System.Drawing.Point(282, 255);
+            this.tb_email.Name = "tb_email";
+            this.tb_email.Size = new System.Drawing.Size(152, 20);
+            this.tb_email.TabIndex = 5;
             // 
-            // textBox2
+            // tb_password
             // 
-            this.textBox2.Location = new System.Drawing.Point(282, 292);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(152, 20);
-            this.textBox2.TabIndex = 6;
+            this.tb_password.Location = new System.Drawing.Point(282, 292);
+            this.tb_password.Name = "tb_password";
+            this.tb_password.Size = new System.Drawing.Size(152, 20);
+            this.tb_password.TabIndex = 6;
             // 
             // button1
             // 
@@ -99,6 +99,7 @@
             this.button2.TabIndex = 8;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // signin
             // 
@@ -107,8 +108,8 @@
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_password);
+            this.Controls.Add(this.tb_email);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -118,8 +119,8 @@
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.label5, 0);
-            this.Controls.SetChildIndex(this.textBox1, 0);
-            this.Controls.SetChildIndex(this.textBox2, 0);
+            this.Controls.SetChildIndex(this.tb_email, 0);
+            this.Controls.SetChildIndex(this.tb_password, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);
             this.ResumeLayout(false);
@@ -132,8 +133,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_email;
+        private System.Windows.Forms.TextBox tb_password;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }
